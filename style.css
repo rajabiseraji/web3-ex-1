@@ -1,0 +1,16 @@
+.box {
+   background:  blue  ;
+   box-sizing: border-box ;
+   width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid cyan;
+    color : white ;
+    position:  relative ;
+    left: 200px;
+
+}
+ 
+#box1 {
+
+}
