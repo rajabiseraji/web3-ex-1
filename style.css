@@ -1,8 +1,16 @@
 .box {
     background: blue;
+    border: 10px  black;
     width: 500px;
     height: 200px;
-    color: white
+}
+
+#first {
+    color : red;
+}
+
+#second {
+    color: green
 }
 
 /*class selector  */
