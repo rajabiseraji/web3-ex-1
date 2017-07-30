@@ -1,0 +1,22 @@
+.box {
+    background: blue;
+    width: 500px;
+    height: 200px;
+    color: white
+}
+
+/*class selector  */
+
+/* .box */
+
+/*id selector   */
+/* 
+#first {
+ background: blue   
+} */
+
+/*tag selector   */
+/* 
+div {
+    background: blue;
+} */
