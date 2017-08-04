@@ -4,3 +4,15 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
 }
+.p{
+    font-size: 20px;
+    color: black;
+}
+.btn{
+    margin: 10px;
+    color: #b0bec5;
+}
+/* .list-group-item{
+    
+    color: whitesmoke;
+} */

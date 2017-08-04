@@ -1,82 +1,156 @@
-<!DOCTYPE html>
+<html>
 
 <head>
-    <link rel="stylesheet" href="C:\Users\Asus\workspace\webProjects\profilePage\node_modules\bootstrap\dist\css\bootstrap.css">
-    <link rel="quary" href="C:\Users\Asus\workspace\webProjects\profilePage\node_modules\jquery\dist\jquery.js">
-    <link rel="stylesheet" href="C:\Users\Asus\workspace\webProjects\profilePage\style.css">
-    <link rel="stylesheet" href="C:\Users\Asus\workspace\webProjects\profilePage\node_modules\compass\lib\compass.js">
-    <meta name="viewport" content="width = devise-width">
+    <!-- link to bootstrap  -->
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width = devise-width scale = 1">
 </head>
 
 <body>
-    <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-inverse p-4">
-                <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-                    <a class="navbar-brand" href="#">Navbar</a>
-
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
+    <div class="container-fluid px-0 mx-0">
+        <nav class="navbar navbar-toggleable-md navbar-inverse navbar-fixed-top teal lighten-2 white-text" style="background: #757575">
+            <span class="navbar-brand">home</span>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link btn btn-primery" href="#">info <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primery" href="#">resume</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle btn btn-primery" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        skill
+                    </a>
+                    <div class="dropdown-menu" id="mydropdown" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#java">java</a>
+                        <a class="dropdown-item" href="#c">c programming</a>
+                        <a class="dropdown-item" href="#python">python</a>
+                        <a class="dropdown-item" href="#html">html</a>
+                        <a href="#css" class="dropdown-item">css</a>
+                        <a href="#javascript" class="dropdown-item">js</a>
                     </div>
-                </nav>
-            </div>
-        </div>
-        <nav class="navbar navbar-inverse bg-inverse">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle btn btn-primery" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        hobby
+                    </a>
+                    <div class="dropdown-menu" id="mydropdown" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#basketball">basketball</a>
+                        <a class="dropdown-item" href="#valleyball">volleyball</a>
+                        <a class="dropdown-item" href="#movie">movie</a>
+                        <a href="#music" class="dropdown-item">music</a>
+                        <a href="#hangout" class="dropdown-item">hang-out</a>
+                        <a href="#search" class="dropdown-item">searching</a>
+                    </div>
+                </li>
+            </ul>
         </nav>
     </div>
-    <div class="card col-4 border-30" style="width: 20rem;">
-        <img class="card-img-top" src="me.jpg" alt="Card image cap" height="300" width="300">
-        <div class="card-block">
-            <h4 class="card-title">personal info</h4>
-            <p class="card-text">my name is<strong> mohammad mahdi safari</strong><br> i'm studying computer engineering at<a class="univercityStyle"
-                    href="http://www.aut.ac.ir/aut/fa/"> amikabir univercity of technology</a><br>
-            </p>
+    <div>
+        <div class="row d-flex flex-row">
+
+            <div class="col-3 mr-auto p-2" style="background: #00796b; border: 0; border-radius: 0 ; float: left">
+                <div class="d-flex flex-center" style="padding: 50">
+                    <img class="img-round  m-auto " style="margin: 20px; padding: 20px" src="me.jpg" height="200" width="200">
+                </div>
+                <div class="text-center" style="background: #00796b; border: 0;">
+                    <br><br>
+                    <h4>mohammad mahdi<br><br>safari</h4>
+                </div>
+            </div>
+            <div class="col-9 p-2" id="skill" style="background: #cfd8dc ; float: right">
+                <h4 style="margin: 10px">MySkills</h4>
+                <ul class="list-group" style="background-color:#cfd8dc ; padding: 20px; border: 0px;">
+                    <li class="list-group-item" style="margin: 10px" id="java">
+                        <div style="background-color:black ; width: 100%">
+                            <div class="text-center" style="background-color:gray ; width:76%">java</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="margin: 10px" id="c">
+                        <div style="background-color:black ; width: 100%">
+                            <div class="text-center" style="background-color:gray ; width:85%">c programming</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="margin: 10px" id="python">
+                        <div style="background-color:black ; width: 100%">
+                            <div class="text-center" style="background-color:gray ; width:20%">python</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="margin: 10px" id="html">
+                        <div style="background-color:black ; width: 100%">
+                            <div class="text-center" style="background-color:gray ; width:55%">html</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="margin: 10px" id="css">
+                        <div style="background-color:black ; width: 100%">
+                            <div class="text-center" style="background-color:gray ; width:35%">css</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="margin: 10px" id="javascript">
+                        <div style="background-color:black ; width: 100%">
+                            <div class="text-center" style="background-color:gray ; width:15%">javascipt</div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
         </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">i have a little skill in html<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png"
-                    height="20" width="20"></li>
-            <li class="list-group-item">even just a bit in css<img src="https://camo.githubusercontent.com/7e97b9c10423e06bf6f91e971d8a9cec5926adfe/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667"
-                    height="20" width="20"></li>
-            <li class="list-group-item">but know im trying to learn js</li>
-        </ul>
-        <div class="card-block">
-            <a href="https://www.w3schools.com" class="card-link">my website link</a>
-            <a href="https://www.w3schools.com" class="card-link">w3 tutorial</a>
+
+        <div class="row row d-flex flex-row">
+            <div class="card col-3 p-4 d-flex justify-content-end text-center mr-auto h-100%" style="background: #00796b; color: white ; border-radius: 0px;">
+                <p> I'm 19</p><br>
+                <p>my email address is:</p>
+                <a href="https://myaccount.google.com/safari.m.mahdi@gmail.com" style="color:black">safari.m.mahdi@gmail.com</a><br><br>
+                <p>my telegram id is: <a href="https://t.me.com/mmahdisafari"><img src="https://telegram.org/img/t_logo.png" height="20px" width="20px" ></a></p><br>
+                <p>im studying computer engineering at <br><a href="https://www.aut.ac.ir" style="font-family:courier ; color: black ">amirkabir univercity of technolegy</a></p>
+            </div>
+            <div class="col-9" id="hobby" style="background: #cfd8dc">
+                <h4 style="margin: 10px">MyHobbies</h4>
+                <ul class="list-group">
+                    <li class="list-group-item" style="background-color:#cfd8dc ; padding: 20px; border: 0px;" id="basketball">my favorit sport is basketball</li>
+                    <li class="list-group-item" style="background-color:#cfd8dc ; padding: 20px; border: 0px;" id="vleyball">the other sport is valeyball</li>
+                    <li class="list-group-item" style="background-color:#cfd8dc ; padding: 20px; border: 0px;" id="movie">i love watching move in my roon</li>
+                    <li class="list-group-item" style="background-color:#cfd8dc ; padding: 20px; border: 0px;" id="music">i always listen to music while im working</li>
+                    <li class="list-group-item" style="background-color:#cfd8dc ; padding: 20px; border: 0px;" id="hangout">while im hanged out with my freind im kinda high</li>
+                    <li class="list-group-item" style="background-color:#cfd8dc ; padding: 20px; border: 0px;" id="search">i like searching as my pleasure time</li>
+                </ul>
+            </div>
         </div>
+        <div class="card text-center" style="background: #212121 ; color: whitesmoke">
+            <div class="card-title">My resume</div>
+            <div>
+                <ul style="list-style-type: none">
+                    <li>
+                        <p>i cought 11300 mark at
+                            <bold>konkur</bold> exam</p>
+                    </li>
+                    <li>
+                        <p>i cought the
+                            <bold>137th</bold> place at konkur </p>
+                    </li>
+                    <li>
+                        <p>i have 4 gold medal for schoolar champion basketball legue </p>
+                    </li>
+                    <li>
+                        <p>i have 2 gold medal for national basketball legue</p>
+                    </li>
+                    <li>
+                        <p>i have 2 silver medals for schoolar ping-pong legue</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <b-card class="col-sm-4">
+
+        </b-card>
     </div>
 
-    <ul class="vitals">
-        <li>
-            <a class="twitter" href="//twitter.com/digsite_">facebook<i class="fa fa-twitter"></i></a>
-        </li>
-        <li>
-            <a class="codepen" href="//codepen.io/digsite_">tweeter<i class="fa fa-codepen"></i></a>
-        </li>
-        <li>
-            <a class="github" href="//github.com/digsite">telegram<i class="fa fa-github"></i></a>
-        </li>
-    </ul>
-
+    <script src="node_modules\jquery\dist\jquery.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
 </body>
+
+</html>

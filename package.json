@@ -1,12 +1,14 @@
 {
     "name": "profilePage",
     "version": "1.0.0",
-    "description": "bootstrapt",
+    "description": "a test for bootstrap",
     "main": "index.html",
-    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AUTWebCourse/web3-ex-1.git"
+    },
     "dependencies": {
         "bootstrap": "^4.0.0-alpha.6",
-        "jquery": "^3.2.1",
         "materialize-css": "^0.100.1"
     }
 }
