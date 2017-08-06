@@ -1,0 +1,103 @@
+body {
+        align-content: center;
+}
+
+.img-round {
+        width: 12vw;
+        height: 12vw;
+        border-radius: 50%;
+        border-style: inherit ;
+        border-width: 2px;    
+        margin:0 auto;
+}
+
+.image {
+        margin: 0 auto;
+}
+
+.card-text {
+        font-size: 15px;
+}
+
+hr {
+        width: 3vw;
+}
+
+.accountimage {
+        width: 20px;
+        height: 20px;
+}
+
+.resume {
+        background: #fafafa;
+        height: 220px;
+        width: 1400px;
+        display: block;
+}
+
+#imagecard {
+        background: #fafafa;
+}
+
+.info {
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 30px;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        align-content: center;
+}
+
+.info-1 {
+        align-items: center;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: left;
+        background: #e65100;
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+}
+
+.info-2 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: left;
+        background: #d7ccc8;
+        border-bottom-right-radius: 2px;
+        border-top-right-radius: 2px;
+}
+
+.h5 {
+        font-size: 100%
+}
+
+.card-title {
+        font-size: 27px;
+}
+
+.profile {
+        align-items: center;
+        align-content: center;
+}
+
+.blocks {
+        width: 1200px;
+        height: 200px;
+}
+
+a {
+        font-size: 0.9em;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}

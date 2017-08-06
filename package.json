@@ -1,0 +1,9 @@
+{
+  "name": "ex2",
+  "version": "1.0.0",
+  "Description": "test",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "materialize-css": "^0.100.1"
+  }
+}
