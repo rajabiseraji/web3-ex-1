@@ -1,0 +1,25 @@
+.userinfo1{
+    
+border:5px   solid  #ea80fc;
+border-style:outset;
+     margin: 40px;
+width:700px;
+height: 200px;
+
+
+}
+.userinfo2{
+    border:5px   solid #2BBBAD;
+    margin: 40px;
+    border-style:outset;
+width:700px;
+height: 100px;
+
+
+}
+
+.username{
+margin: 20px;
+
+
+}

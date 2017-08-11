@@ -1,0 +1,9 @@
+{
+  "name": "hiuhdi",
+  "version": "1.0.0",
+  "description": "test",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "materialize-css": "^0.100.1"
+  }
+}
